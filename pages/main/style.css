@@ -501,12 +501,29 @@ html{
 *, *::before, *::after {
     box-sizing: inherit;
 }
-.container{
+
+body{
+    
+}
+
+.container {
     max-width: 1280px;
+    margin: 0 auto;
+}
+
+.header{
+   
 }
 
 .header_container {
-    
+    margin: 60px 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header_logo_link{
+    text-decoration: none;
 }
 
 .header_logo_maintext {
@@ -521,5 +538,7 @@ html{
     /* color-primary */
 
     color: #F1CDB3;
-
+    
 }
+
+
